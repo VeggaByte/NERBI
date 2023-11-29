@@ -6,7 +6,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color:#212121;
 }
 
 .box{
@@ -57,7 +57,21 @@ body{
    
 }
 
-.title h1{
-    margin: 0;
-    font-size:large;
+.title {
+    text-align: center;
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+.title h1 {
+    margin: 0; /* Mantiene el margen a 0 */
+    font-size: large;
+}
+
+
+.confirmbtt{
+    align-self: center;
+    width: 150px;
+    height: 35px;
+    background-color: cornflowerblue;
+    color: white;
 }
