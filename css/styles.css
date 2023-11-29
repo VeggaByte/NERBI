@@ -44,10 +44,12 @@ body{
 .inputs{
     background-color: white;
     border-radius: 10px;
-    padding:5px;
+    padding:10px;
+    width: 100%;
     border: solid 1px black;
-    margin-bottom: 25px;    
-    
+    margin-bottom: 25px;
+    font-weight: bold;
+    align-self: center;
 }
 
 .title{
@@ -68,10 +70,30 @@ body{
 }
 
 
-.confirmbtt{
+.button {
+    height: 40px;
+    width: 200px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     align-self: center;
-    width: 150px;
-    height: 35px;
-    background-color: cornflowerblue;
-    color: white;
-}
+  }
+  
+  .button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  .button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
