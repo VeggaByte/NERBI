@@ -12,20 +12,46 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-color: white;
+    border-radius: 15px;
 }
 
 .form-content{
     display: flex;
     flex-direction: column;
+    height: 300px;
+    width: 300px;
+    align-items: center;
 }
 
 .input{
-    margin: 0 0 5px 0;
+    margin: 0 0 5px 20px;
+    align-self: normal;
 }
 
 .spaceinput{
-    margin: 15px 0 0 0 ;
+    margin: 15px 0 0 20px ;
+}
+
+.label{
+    border-radius: 5px;
+    border:  3px groove;
+    height: 30px;
+    width: 250px;
+
+}
+
+.labelbottom{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.bttn{
+margin-top: 10px;
+height: 40px;
+width: 200px;
+border-radius: 10px;
+border: groove;
 }
