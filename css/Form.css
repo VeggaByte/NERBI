@@ -10,7 +10,7 @@
 .form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     width: 350px;
     height: 350px;
@@ -24,11 +24,15 @@
     height: 300px;
     width: 300px;
     align-items: center;
+    justify-content: center;
+    margin-top: -30px;
 }
 
 .input{
     margin: 0 0 5px 20px;
     align-self: normal;
+    font-weight: bold;
+    font-size: large;
 }
 
 .spaceinput{
@@ -40,7 +44,12 @@
     border:  3px groove;
     height: 30px;
     width: 250px;
-
+    font-size:medium;
+    
+}
+.h1{
+    font-size: x-large;
+    margin: 10px 0 0 0 ;
 }
 
 .labelbottom{
@@ -51,7 +60,15 @@
 .bttn{
 margin-top: 10px;
 height: 40px;
-width: 200px;
+width: 260px;
 border-radius: 10px;
 border: groove;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+
+}
+
+.bttn:hover{
+    color: white;
+    background-color: #212121;
 }
