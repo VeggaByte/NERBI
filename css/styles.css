@@ -1,74 +1,45 @@
-body{
+body {
     margin: 0;
-    
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    background-color:#212121;
-}
-
-.box{
-    display: grid;
-    justify-content: center;
+    background-color: #212121;
     height: 100vh;
+    justify-content: center;
     align-items: center;
 }
 
-.form-container{
-    display: flex;
-    justify-content: center;
+.form-container {
     width: 300px;
     height: 300px;
-
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: white;
     padding: 45px;
-    border: 10px;
     border-radius: 10px;
 }
 
-.contraseña{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-
-.inputs{
+.input {
     background-color: white;
     border-radius: 10px;
-    padding:10px;
+    padding: 10px;
     width: 100%;
     border: solid 1px black;
     margin-bottom: 25px;
     font-weight: bold;
-    align-self: center;
-}
-
-.title{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-   
 }
 
 .title {
     text-align: center;
-    width: 100%; /* Asegura que ocupe todo el ancho disponible */
-}
-
-.title h1 {
-    margin: 0; /* Mantiene el margen a 0 */
+    margin: 0;
     font-size: large;
 }
-
 
 .button {
     height: 40px;
@@ -80,20 +51,17 @@ body{
     color: #ffffff;
     font-weight: Bold;
     transition: all 0.5s;
-    -webkit-transition: all 0.5s;
     align-self: center;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: #6fc5ff;
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
-  }
-  
-  .button:active {
+}
+
+.button:active {
     background-color: #3d94cf;
-    transition: all 0.25s;
-    -webkit-transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
-  }
+}
